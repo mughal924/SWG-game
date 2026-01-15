@@ -43,3 +43,8 @@ function checkWinner(user, computer) {
         }
     }
 }
+function resetGame() {
+  document.getElementById("user").innerText = "You chose:";
+  document.getElementById("computer").innerText = "Computer chose:";
+  document.getElementById("winner").innerText = "";
+}
