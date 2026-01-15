@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake Water Gun Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game">
+        <h1>Snake 🐍 Water 💧 Gun 🔫</h1>
+        <p>Choose one</p>
+
+        <div class="buttons">
+            <button onclick="playGame('snake')">🐍 Snake</button>
+            <button onclick="playGame('water')">💧 Water</button>
+            <button onclick="playGame('gun')">🔫 Gun</button>
+        </div>
+
+        <div class="result">
+            <p id="user"></p>
+            <p id="computer"></p>
+            <h2 id="winner"></h2>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

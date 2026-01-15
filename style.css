@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.game {
+    background: #111;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    margin: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #ff9800;
+    color: black;
+    box-shadow: 0 5px #c77700;
+}
+
+button:active {
+    box-shadow: 0 2px #c77700;
+    transform: translateY(3px);
+}
+
+.result p {
+    margin: 5px 0;
+}
+
+#winner {
+    margin-top: 15px;
+    color: #00e676;
+}
